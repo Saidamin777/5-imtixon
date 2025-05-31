@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button{
+    width: 200px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 30px;
+
+    background-color: greenyellow;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+
+}
+.box{
+    display: flex;
+    gap: 30px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: red;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 400px;
+    
+    
+}
+.nimadurla{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700; 
+    width: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 400px;
+    color: red;
+    margin-bottom: 100px;
+
+}
+.son1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: aqua;
+}
+.son2{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: aqua;
+}
+.son3{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: aqua;
+}
+    </style>
+    <title>Calculator
+    </title>
+</head>
+
+<body>
+    <div class="box">
+        <p class="son1" id="bir"></p>
+        <p class="son2" id="plus"></p>
+        <p class="son3" id="ikki"></p>
+    </div>
+    <button onclick="nimadur()">javobi</button>
+    <p id="natijasi" class="nimadurla"></p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
